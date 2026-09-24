@@ -1,0 +1,168 @@
+/* Основні налаштування сторінки */
+
+body {
+    background-color: #0b1118;
+    color: #d9e7f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Верхня частина сайту */
+
+header {
+    background-color: #111d29;
+    border-bottom: 2px solid #5d89a8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #b9e5ff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    color: #9ed8f5;
+    border-bottom: 1px solid #496d86;
+    padding-bottom: 8px;
+}
+
+/* Верхнє меню */
+
+.menu {
+    background-color: #172737;
+    border: 1px solid #45677f;
+    padding: 12px;
+}
+
+.menu a {
+    color: #c7eaff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 12px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    background-color: #29465c;
+    border: 1px solid #7db5d4;
+}
+
+/* Основний вміст */
+
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.info-block {
+    background-color: #111c27;
+    border: 1px solid #39566c;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #05080b;
+}
+
+/* Текст */
+
+p {
+    color: #d5e0e8;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+b {
+    color: #bde6ff;
+}
+
+/* Заголовки */
+
+h2 {
+    font-size: 25px;
+}
+
+/* Таблиці */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #101b25;
+}
+
+th {
+    background-color: #243c50;
+    color: #c9ecff;
+    border: 1px solid #58778c;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #405b6d;
+    padding: 12px;
+    color: #d5e1e8;
+}
+
+tr:hover {
+    background-color: #1c3345;
+}
+
+/* Зображення */
+
+.game-image {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 20px auto;
+    padding: 6px;
+    border: 2px solid #5d89a8;
+    background-color: #0a1016;
+}
+
+/* Списки */
+
+ul,
+ol {
+    background-color: #0d1822;
+    border-left: 3px solid #5d89a8;
+    padding: 15px 35px;
+    line-height: 1.8;
+}
+
+li {
+    color: #d5e1e8;
+    margin: 5px 0;
+}
+
+/* Посилання в тексті */
+
+a {
+    color: #8fd5ff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Нижня частина сайту */
+
+footer {
+    background-color: #111d29;
+    border-top: 2px solid #45677f;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #91a9b8;
+    font-size: 14px;
+}
